@@ -105,20 +105,25 @@ h5 {
     color:#333;
     background-color:#FFF;
     text-align:center;
-    
+    }
 
-
-
-
-}
 /* Section & Paragraph */
-
+section {}
+p {}
 
 
 /* Image & Figure */
 
-
+img {}
+figure {}
+figcaption {}
 
 /* Footer */
 
+footer {
+padding: 1rem;
+border-top-width: 2rem;
+border-top-style: solid;
+border-top-color: #333;
+}
 
