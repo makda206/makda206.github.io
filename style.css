@@ -54,7 +54,7 @@ background-image:url(../images/wrinkled-white-paper-background.jpg);
 
 /* Headings  */
 
-h1 {
+p, li, h1 {
     text-transform: uppercase;
     font-size:6rem;
     margin: 0;
@@ -65,8 +65,15 @@ h1 {
     text-align:center;
 }
 
-h2 p {
-    color:red;
+h2  {
+    text-transform: uppercase;
+    font-size:3rem;
+    margin: 0;
+    letter-spacing: .25rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
 }
 
 h3 {
