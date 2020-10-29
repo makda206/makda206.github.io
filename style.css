@@ -54,7 +54,7 @@ background-image:url(../images/wrinkled-white-paper-background.jpg);
 
 /* Headings  */
 
-p, li, h1 {
+h1, p, {
     text-transform: uppercase;
     font-size:6rem;
     margin: 0;
@@ -126,7 +126,9 @@ figcaption {}
 
 /* Footer */
 
-footer {
+footer 
+
+{
 padding: 1rem;
 border-top-width: 2rem;
 border-top-style: solid;
