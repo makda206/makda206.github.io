@@ -54,7 +54,7 @@ background-image:url(../images/wrinkled-white-paper-background.jpg);
 
 /* Headings  */
 
-h1, p, {
+p {
     text-transform: uppercase;
     font-size:6rem;
     margin: 0;
