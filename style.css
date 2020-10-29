@@ -66,14 +66,7 @@ h1 {
 }
 
 h2  {
-    text-transform: uppercase;
-    font-size:3rem;
-    margin: 0;
-    letter-spacing: .25rem;
-    color:darkred;
-    text-shadow:.09375rem .09375rem .09375rem #000;
-    font-family:'Alfa Slab One', Garamond, serif;
-    text-align:center;
+    color:red;
 }
 
 h3 {
