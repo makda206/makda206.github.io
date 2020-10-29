@@ -1,4 +1,4 @@
-  Column Headers
+Column Headers
 
         Name
         Mass (10<sup>24</sup>kg)
