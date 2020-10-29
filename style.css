@@ -66,16 +66,36 @@ h1 {
 }
 
 h2 {
-    
     font-size:48rem;
     margin: 0;
-    letter-spacing: .4rem;
+    letter-spacing: 4rem;
     color:darkred;
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
 }
 
+h3 {
+    font-size:32rem;
+    color:black;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+    
+}
+
+h4 {
+    font-size:16rem;
+    margin: 4rem;
+    padding: 8rem 8rem 8rem 8rem;
+    color:#333;
+    background-color:#FFF;
+    text-align:center;
+    
+
+
+
+
+}
 /* Section & Paragraph */
 
 
