@@ -89,7 +89,7 @@ h3 {
     
 }
 
-h4> span {
+h4 span {
     text-transform: uppercase;
     font-size:2rem;
     margin: 0;
@@ -106,7 +106,7 @@ h4> span {
 
 }
 
-h5, p {
+h5 {
     text-transform: none;
     font-size:1rem;
     font-weight:normal;
@@ -174,5 +174,6 @@ padding-right: 1rem;
 border-top-width: 2rem;
 border-top-style: solid;
 border-top-color: #333;
+    
 }
 
