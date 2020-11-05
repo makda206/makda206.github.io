@@ -1,0 +1,205 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size:16px;
+}
+
+body {
+    margin: 1.5rem auto;
+    width:90%;
+    min-width:56.25rem;
+}
+
+/* Layout */
+
+main {
+    overflow:auto;
+    min-width:45rem;
+    
+}
+
+section {
+    float: left;
+    min-width: 22.5rem;
+    width:50%;
+}
+
+figure {
+    width:60%;
+    margin:0 10% 0 0;
+    float:left;
+}
+
+figure img {
+    width:100%;
+    max-width:25rem;
+}
+
+figcaption {
+    margin:.375rem 0;
+}
+
+.long-list {
+    margin-top:0;
+}
+
+nav {
+    float: left;
+    width:11.25rem;
+}
+
+footer {
+    clear: both;
+    margin-top:1.5rem;
+}
+
+section, aside, nav, footer {
+  padding: .5rem;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: .125rem solid #33658A;
+  border-bottom: .125rem solid #33658A;
+}
+
+/* ------ START WRITING YOUR CODE BELOW THIS LINE ------ */
+
+/* NO changes should be made to any of the code above. */
+
+/* NOTE: While you will be using some of the same CSS properties, the VALUES 
+   may need to be different in order to style the page correctly. */
+
+
+/* Imported Typfaces */
+
+@font-face {
+    font-family:Montserrat;
+    src: url(../fonts/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family:Josefinslab;
+    src: url(../fonts/josefinslab-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+
+/* Typography Styles */
+
+html {
+    font-family: "montserrat",sans-serif;
+
+}
+
+h1 {
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align: center;
+    letter-spacing: 0.125rem;
+    font-family: Josefinslab, Arial, sans-serif;
+}
+
+h2{
+    letter-spacing: 0.125rem;
+    font-family: Josefinslab, Arial, sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.03125rem;
+}
+
+h2 + p {
+    text-indent: 1.5rem;
+
+}
+
+p {
+    letter-spacing: 0.125rem;
+    font-size: 0.75rem;
+    word-spacing: 0.125rem;    
+    text-indent: 1.5rem;
+
+}
+
+li { 
+    letter-spacing: 0.125rem;
+    font-size: 0.75rem;
+    word-spacing: 0.125rem;   
+}
+
+figcaption {
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+
+/* Link Styling */
+
+a {
+    outline: none;
+}
+
+a:link { 
+    color:#33658A;
+}
+
+a:visited {
+    color:#33658A;
+}
+
+a:focus {
+    outline: none;
+
+}
+
+a:hoover {    
+    outline: none;
+}
+
+
+/* List Styling */
+
+ul { 
+    margin: 1rem, 0;
+    list-style-type: square;
+    letter-spacing: 0.125rem;
+    font-size: 0.75rem;
+    word-spacing: 0.125rem;   
+}
+
+ol { 
+    margin: 1rem, 0;
+    list-style-type: lower-alpha;
+    letter-spacing: 0.125rem;
+    font-size: 0.75rem;
+    word-spacing: 0.125rem;   
+}
+
+.long-list a:hover {}
+
+
+/* Navigation Menu */
+
+nav {}
+
+nav a {}
+
+nav a:focus,
+nav a:hover {}
+
+nav a:active {}
+
+
+/* Footer Styles */
+
+footer {}
+
+
+
+
