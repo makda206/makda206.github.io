@@ -96,40 +96,35 @@ header, footer {
 
 html {
     font-family: Montserrat,sans-serif;
-
 }
 
 h1 {
+    letter-spacing: 0.125rem;
+    font-family: Josefinslab, sans-serif;
     font-size: 3.75rem;
     margin: 1.125rem;
     text-align: center;
-    letter-spacing: 0.125rem;
-    font-family: Josefinslab, sans-serif;
 }
 
 h2{
     letter-spacing: 0.125rem;
     font-family: Josefinslab, sans-serif;
     font-size: 1.5rem;
-    letter-spacing: 0.03125rem;
 }
 
 h2 + p {
     text-indent: 1.5rem;
-
 }
 
 p {
-    letter-spacing: 0.125rem;
     font-size: 0.75rem;
+    letter-spacing: 0.125rem;
     word-spacing: 0.125rem;    
-    text-indent: 1.5rem;
-
 }
 
 li { 
-    letter-spacing: 0.125rem;
     font-size: 0.75rem;
+    letter-spacing: 0.125rem;
     word-spacing: 0.125rem;   
 }
 
@@ -142,7 +137,7 @@ figcaption {
 /* Link Styling */
 
 a {
-    outline: none;
+    text-decoration: none;
 }
 
 a:link { 
@@ -167,18 +162,12 @@ a:hover {
 
 ul { 
     margin: 1rem, 0;
-    list-style-type: square;
-    letter-spacing: 0.125rem;
-    font-size: 0.75rem;
-    word-spacing: 0.125rem;   
+    list-style-type: square; 
 }
 
 ol { 
     margin: 1rem, 0;
-    list-style-type: lower-alpha;
-    letter-spacing: 0.125rem;
-    font-size: 0.75rem;
-    word-spacing: 0.125rem;   
+    list-style-type: lower-alpha;  
 }
 
 .long-list a:hover {
