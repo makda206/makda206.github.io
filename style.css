@@ -101,11 +101,15 @@ html {
 h1 {
     letter-spacing: 0.125rem;
     font-family: Josefinslab, sans-serif;
+    font-size:3.75rem;
+    margin:1.125rem;
+    text-align: center;
 }
 
 h2{
     letter-spacing: 0.125rem;
     font-family: Josefinslab, sans-serif;
+    font-size:1.5rem;
 }
 
 h2 + p {
@@ -176,6 +180,9 @@ ol {
 nav {
     padding-left: 0;
     margin-top: 0.25rem;
+}
+
+nav a {
     text-decoration:none;
     display: inline-block
     width:100%;
@@ -183,21 +190,31 @@ nav {
     text-align: center;
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
-    
-
+    border-style: solid;
+    border-width: 0.0625;
+    border-color: #33658A;
 }
 
-nav a {}
+nav a:focus,{
+    color:#FFF;
+    background-color: #33658A;
+}
+nav a:hover {
+    color:#FFF;
+    background-color: #33658A;}
 
-nav a:focus,
-nav a:hover {}
-
-nav a:active {}
+nav a:active 
+{
+    color:#FFF;
+    background-color: #000;
+}
 
 
 /* Footer Styles */
 
-footer {}
+footer {
+    text-align: center;
+}
 
 
 
