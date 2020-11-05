@@ -184,7 +184,7 @@ nav {
 
 nav a {
     text-decoration:none;
-    display: inline-block
+    display: inline-block;
     width:100%;
     line-height: 3;
     text-align: center;
