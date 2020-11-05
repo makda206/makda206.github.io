@@ -154,12 +154,12 @@ a:visited {
 }
 
 a:focus {
-    outline: none;
+   text-decoration: none;
 
 }
 
-a:hoover {    
-    outline: none;
+a:hover {    
+   text-decoration: none;
 }
 
 
@@ -181,7 +181,9 @@ ol {
     word-spacing: 0.125rem;   
 }
 
-.long-list a:hover {}
+.long-list a:hover {
+    text-transform: uppercase;
+}
 
 
 /* Navigation Menu */
