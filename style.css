@@ -79,17 +79,19 @@ header, footer {
 /* Imported Typfaces */
 
 @font-face {
-    font-family: Montserrat;
-    src: url(..makda206.github.io/fonts/montserrat-regular.ttf) format('truetype');
-    font-weight:normal;
-    font-style:normal;
-}
-@font-face {
     font-family:Josefinslab;
     src: url(..makda206.github.io/fonts/josefinslab-regular.ttf) format('truetype');
     font-weight:normal;
     font-style:normal;
 }
+
+@font-face {
+    font-family: Montserrat;
+    src: url(..makda206.github.io/fonts/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
 
 
 /* Typography Styles */
