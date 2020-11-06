@@ -97,12 +97,12 @@ header, footer {
 /* Typography Styles */
 
 html {
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat',Arial,sans-serif;
 }
 
 h1 {
     letter-spacing: 0.125rem;
-    font-family: 'Josefinslab', serif;
+    font-family: 'Josefinslab', Garamond,serif;
     font-size:3.75rem;
     margin:1.125rem;
     text-align: center;
