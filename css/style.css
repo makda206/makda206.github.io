@@ -96,8 +96,10 @@ background-color: darkred;
 color: white;
 border-radius: 1.25rem .75rem;
 padding: .5rem;
-font-weight: bold;
+font-weight: bold;    
 }
+
+{text-decoration-line: line-through} 
 
 h2  {
     
