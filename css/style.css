@@ -1,51 +1,108 @@
-/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
-
-        /* 
-        
-        Spacing 
-
-            - padding (shorthand and/or specific properties like padding-bottom, etc.)
-
-            - margin, (shorthand and/or specific properties like margin-top, etc.)
-
-            - letter-spacing, word-spacing, line-height
-
-            - width, max-width, min-width
-            - height, max-height, min-height
-
-        Typography 
-
-            - font-family, font-size, font-style, font-weight
-
-            - text-decoration, text-align
-
-            - color
-
-            - text-shadow, text-transform
-
-        Box, Layout and Border 
-
-            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
-
-            - box-shadow
-
-            - display, float, align-items, align-content
-
-            - grid-template-columns, grid-column-gap
-
-            - transform
-
-        Other
-
-            - :nth()-child (to target specific child elements)
-
-            - :focus, :hover, :active (to target link states)
-
-            - @font-face or @import (to import typefaces)
-
-        */
-
-
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+/* Imported Typeface Files */
+
+@font-face {
+    font-family:Lato;
+    src: url(../makda206.github.io/fonts/lato-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+
+    font-family:Montserrat;
+    src: url(../makda206.github.io/fonts/montserrat-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+
+@font-face {
+
+    font-family:Opensans;
+    src: url(../makda206.github.io/fonts/opensans-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+
+{ @font-face 
+
+    font-family:Roboto;
+    src: url(../makda206.github.io/fonts/roboto-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+
+{
+    font-family:Josefinslab;
+    src: url(../makda206.github.io/fonts/josefinslab-regular.ttf)
+    font-style:normal;
+    font-weight:normal;
+}
+
+ { font-family:Robotoslab;
+    src: url(../makda206.github.io/fonts/robotoslab-regular.ttf)
+    font-style:normal;
+    font-weight:normal;
+}
+ { font-family:Rozhaone;
+    src: url(../makda206.github.io/fonts/Rozhaone-regular.ttf)
+    font-style:normal;
+    font-weight:normal;
+}
+
+{ font-family:ultra;
+    src: url(../makda206.github.io/fonts/Ultra-regular.ttf)
+    font-style:normal;
+    font-weight:normal;
+}
+/* Root */
+
+html {
+    font-size:16px;
+}
+/* Body & Main  */
+
+body {
+    font-family:Lato, Arial, sans-serif;
+    font-size:1rem;
+    padding:1rem;
+    min-width:39rem;
+    max-width:50rem;
+    margin:0 auto;
+}
+
+Box, Layout and Border 
+
+.subsection {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-column-gap: 1rem;
+
+}
+
+/* Headings  */
+
+h1 {
+
+border-color: mediumvioletred;
+background-color: darkred;
+color: white;
+border-radius: 1.25rem .75rem;
+padding: .5rem;
+font-weight: bold;
+}
+
+h2  {
+    
+}
+
+h3 {
+    
+}
+
+h4 span {
+}
+
+h5 {
+    }
 
