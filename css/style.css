@@ -16,66 +16,10 @@
     font-weight:normal;
 }
 
-@font-face {
+{box-sizing: border-box;}
 
-    font-family:Opensans;
-    src: url(../makda206.github.io/fonts/opensans-regular.ttf);
-    font-style:normal;
-    font-weight:normal;
-}
-
-{ @font-face 
-
-    font-family:Roboto;
-    src: url(../makda206.github.io/fonts/roboto-regular.ttf);
-    font-style:normal;
-    font-weight:normal;
-}
-
-{
-    font-family:Josefinslab;
-    src: url(../makda206.github.io/fonts/josefinslab-regular.ttf)
-    font-style:normal;
-    font-weight:normal;
-}
-
- { font-family:Robotoslab;
-    src: url(../makda206.github.io/fonts/robotoslab-regular.ttf)
-    font-style:normal;
-    font-weight:normal;
-}
- { font-family:Rozhaone;
-    src: url(../makda206.github.io/fonts/Rozhaone-regular.ttf)
-    font-style:normal;
-    font-weight:normal;
-}
-
-{ font-family:ultra;
-    src: url(../makda206.github.io/fonts/Ultra-regular.ttf)
-    font-style:normal;
-    font-weight:normal;
-}
-/* Root */
-
-html {
-    font-size:16px;
-}
 /* Body & Main  */
-
-body {
-    font-family:Lato, Arial, sans-serif;
-    font-size:1rem;
-    padding:1rem;
-    min-width:39rem;
-    max-width:50rem;
-    margin:0 auto;
-}
-
-section {
-    float: left;
-    min-width: 22.5rem;
-    width:50%;
-}
+{margin: 0; }
 
 
 Box, Layout and Border 
@@ -98,20 +42,4 @@ border-radius: 1.25rem .75rem;
 padding: .5rem;
 font-weight: bold;    
 }
-
-{text-decoration-line: line-through} 
-
-h2  {
-    
-}
-
-h3 {
-    
-}
-
-h4 span {
-}
-
-h5 {
-    }
 
