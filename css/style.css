@@ -71,6 +71,13 @@ body {
     margin:0 auto;
 }
 
+section {
+    float: left;
+    min-width: 22.5rem;
+    width:50%;
+}
+
+
 Box, Layout and Border 
 
 .subsection {
