@@ -69,8 +69,4 @@ li a:hover:not(.active) {
   background-color: white;
 }
 
-.container {
-    column-width: 25em;
-    column-rule: 1px;
-}
 
