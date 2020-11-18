@@ -30,8 +30,13 @@
 
 
 .main-section {
-    display:flex;    
-    
+    display:flex;}
+
+article{
+    width:75%;}
+
+aside{
+    width:25%;
 }
 
 .subsection {
@@ -70,3 +75,27 @@ li a:hover:not(.active) {
 }
 
 
+button {
+margin-top: 2.5rem;
+font-family: Ultra, serif;
+font-size: 1.5rem;
+color: #eeeedd;
+padding: 1rem 1rem;
+background-color: #27476e;
+border-radius: 1rem;
+border: none;
+box-shadow: 2px 2px 2px #333;
+
+}
+
+.grid{
+display: grid;
+grid-template-columns:repeat(6, auto);
+background-color: antiquewhite;
+clear:both;
+margin: 0;
+}
+
+.grid img{
+width: 100%;
+}
