@@ -81,7 +81,6 @@ li a:hover:not(.active) {
 }
 
 .row:after {
-    content:""
     display:table;
     clear: both;
 }
