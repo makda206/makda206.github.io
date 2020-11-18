@@ -4,28 +4,36 @@
 
 @font-face {
     font-family:Lato;
-    src: url(../makda206.github.io/fonts/lato-regular.ttf);
+    src: url(../makda206.github.io/fonts/sans-serif/lato-regular.ttf);
     font-style:normal;
     font-weight:normal;
 }
 @font-face {
 
     font-family:Montserrat;
-    src: url(../makda206.github.io/fonts/montserrat-regular.ttf);
+    src: url(../makda206.github.io/fonts/sans-serif/montserrat-regular.ttf);
     font-style:normal;
     font-weight:normal;
 }
 
+@font-face{font-family:Lato;
+    src: url(../makda206.github.io/fonts/serif/ultra-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+    
+}
+
 
 .highlight {
-    border-color: firebrick;
+    text-transform: uppercase;
+    font-family: "ultraregular", serif;    
     background-color: crimson;
-    color:cornsilk;
-    border-radius: 1.25rem .75rem;
-    padding: .5rem;
-    font-weight: bold;
-    text-align: inherit;
-}
+    padding:1rem;
+    box-shadow:0.625rem 0.625rem 0.625rem black;
+    border-radius: 1.675rem 0.625rem;
+    border-color: black;
+    color: beige; }
+
 
 ul {
   border-top: .125rem solid black;
