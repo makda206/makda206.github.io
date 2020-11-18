@@ -65,8 +65,11 @@ li a:hover:not(.active) {
 
 .main-section {
     display:flex;}
+
 .column {
   float: left;
+    padding: 0.625rem;
+    height: 18.75rem;
 }
 
 .left {
